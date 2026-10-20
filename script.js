@@ -103,4 +103,6 @@ function checkWinner() {
   });
 }
 
-restartBtn.addEventListener("click", startGame);
+restartBtn.addEventListener("click", function () {
+  startGame();
+});
